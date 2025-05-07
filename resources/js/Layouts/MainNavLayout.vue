@@ -55,13 +55,13 @@
                     class="flex items-center justify-center h-[48px] p-1 hover:bg-[#F2F2F2] transition duration-300 w-full rounded-lg cursor-pointer"
                 >
                     <div>
-                        <Home v-if="$page.url === '/'" class="mx-auto" :size="27" fillColor="#1A73E3"/>
-                        <HomeOutline v-else class="mx-auto" :size="32" fillColor="#64676B"/>
+                        <Home v-if="$page.url === '/'" class="mx-auto" :size="27" fillColor="#38bdf8"/>
+                        <HomeOutline v-else class="mx-auto" :size="32" fillColor="#38bdf8"/>
                     </div>
                 </div>
                 <div
                     v-if="$page.url === '/'"
-                    class="border-b-4 border-b-blue-400 rounded-md"
+                    class="border-b-4 border-b-sky-400 rounded-md"
                 ></div>
             </Link>
             <button class="flex items-center justify-center h-[48px] p-1 hover:bg-[#F2F2F2] transition duration-300 w-full rounded-lg mx-1 cursor-pointer">
